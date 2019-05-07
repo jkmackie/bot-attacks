@@ -1,6 +1,6 @@
 ## bot-attacks: Server Bot Attack Visualization
 
-The internet is a *cesspool* of spy bots.  Bots may attack an internet server hundreds of times a day.  This Jupyter notebook visualizes bot attacks using my anonymized server log and IP address geolocation.
+The internet is a *cesspool* of spy bots.  Bots can attack an internet server hundreds of times a day.  This Jupyter notebook visualizes bot attacks using my anonymized server log and IP address geolocation.
 
 Bot data is extracted from the log, geolocated with ipinfo, and put in a pandas dataframe.  Data is visualized with histograms and a network graphs using the dataframe we built.
 
