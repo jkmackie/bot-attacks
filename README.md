@@ -13,6 +13,7 @@ singapore_df dataframe.
 <br/><br/>**Countries linked to invalid username:**    
 ![Alt text](images/country_user_graph.PNG)
 ***
-<br/><br/>**Query postgre table for Singapore:**    
+<br/><br/>**Query postgreSQL table for Singapore:**
+
 ![Alt text](images/postgre_query.PNG)
 ***
