@@ -4,7 +4,7 @@ This notebook visualizes bot (Invalid user) attacks using an anonymized server l
 data is extracted from the log, geolocated with ipinfo, and put in a pandas dataframe.  Bot data is visualized
 using histograms and a network graphs.  
 
-Dataframe is archived to postgreSQL table linuxlog.  linuxlog is queried for Singapore and results saved to
+The extract is archived to postgreSQL table: linuxlog.  linuxlog is queried for Singapore and results saved to
 singapore_df dataframe.
 
 For this sample of 72 bots--logged 28 April, 2019--one-third of the bots are from China and Norway.
