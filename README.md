@@ -8,11 +8,11 @@ For this sample of 72 bots -- logged on 28 April, 2019 -- one-third of the bots 
 
 Moving data between pandas and a postgreSQL database is illustrated as follows.  First, the dataframe is archived to a postgreSQL table called linuxlog.  Next, linuxlog is queried for Singapore.  The results are copied to another dataframe.
 ***
-**Bot attack geographic locations:**  
+**Bot attack geographic locations:**
 ![Alt text](images/geo_map.PNG)
 <i/>Note:  If there are multiple IPs in a country, the IP locations are plotted as red circles.  However, countries are only labeled once.<i/>
 ***
-**A few of the countries linked to their respective bot usernames:**    
+**A few of the countries linked to their respective bot usernames:**
 ![Alt text](images/country_user_graph.PNG)
 ***
 **Query postgreSQL table for Singapore:**
