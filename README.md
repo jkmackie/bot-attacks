@@ -19,4 +19,4 @@ singapore_df dataframe.
 **Countries linked to invalid username:**
   
   
-![Alt text](images/country_user_network.PNG)
+![Alt text](images/country_user_graph.PNG)
