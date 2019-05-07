@@ -10,7 +10,7 @@ Moving data between pandas and a postgreSQL database is illustrated as follows. 
 ***
 **Bot attack geographic locations:**
 ![Alt text](images/geo_map.PNG)
-<i/>Note:  If there are multiple IPs in a country, the IP locations are plotted as red circles.  However, countries are only labeled once.<i/>
+*Note:  If there are multiple IPs in a country, the IP locations are plotted as red circles.  However, countries are only labeled once.*
 ***
 **A few of the countries linked to their respective bot usernames:**
 ![Alt text](images/country_user_graph.PNG)
