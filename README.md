@@ -9,13 +9,14 @@ singapore_df dataframe.
 
 For this sample of 72 bots--logged 28 April, 2019--one-third of the bots are from China and Norway.
 ***
-<br/><br/>**Bot attack geographic locations:**    
-![Alt text](images/world_map.PNG)
+<br/>**Bot attack geographic locations:**<br/>   
+![Alt text](images/geo_map.PNG)
+<i/>Note:  If there are multiple IPs in a country, the IP locations are plotted as red circles.  However, countries are only labeled once.<i/>
 ***
-<br/><br/>**A few of the countries linked to their respective bot usernames:**    
+<br/>**A few of the countries linked to their respective bot usernames:**<br/>    
 ![Alt text](images/country_user_graph.PNG)
 ***
-<br/><br/>**Query postgreSQL table for Singapore:**
+<br/>**Query postgreSQL table for Singapore:**<br/>
 
 ![Alt text](images/postgre_query.PNG)
 ***
