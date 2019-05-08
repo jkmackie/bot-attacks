@@ -8,7 +8,7 @@ For this sample of 72 bots -- logged on 28 April, 2019 -- one-third of the bots 
 
 Moving data between pandas and a postgreSQL database is illustrated as follows.  First, the dataframe is archived to a postgreSQL table called linuxlog.  Next, linuxlog is queried for Singapore.  The results are copied to another dataframe.
 
-A free token from ipinfo.io is required to use their geolocation API.  In the notebook, find tok=fileObj.read().  Replace with tok='My_Token_Goes_Here'.
+A free token from [ipinfo.io](https://ipinfo.io) is required to use their geolocation API.  In the notebook, find tok=fileObj.read().  Replace with tok='My_Token_Goes_Here'.
 ***
 **Bot attack geographic locations:**
 ![Alt text](images/geo_map.PNG)
