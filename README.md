@@ -7,6 +7,8 @@ Bot data is extracted from the log, geolocated with ipinfo, and put in a pandas 
 For this sample of 72 bots -- logged on 28 April, 2019 -- one-third of the bots are from China and Norway.  The sample size can be raised because the log captures over 1,500 bot attacks in four days.  However, the earth map must be enhanced to be legible for larger samples.
 
 Moving data between pandas and a postgreSQL database is illustrated as follows.  First, the dataframe is archived to a postgreSQL table called linuxlog.  Next, linuxlog is queried for Singapore.  The results are copied to another dataframe.
+
+A free token from ipinfo.io is required to use their geolocation API.  In the notebook, find tok=fileObj.read().  Replace with tok='My_Token_Goes_Here'.
 ***
 **Bot attack geographic locations:**
 ![Alt text](images/geo_map.PNG)
